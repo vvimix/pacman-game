@@ -1,0 +1,11 @@
+{
+  "name": "pacman-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pac-Man arcade with offline and online 2-player rooms",
+  "scripts": {
+    "start": "npm --prefix pacman-game-frontend start",
+    "server": "npm --prefix pacman-game-server start",
+    "install:all": "npm --prefix pacman-game-frontend install && npm --prefix pacman-game-server install"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pacman-game-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Authoritative WebSocket server for 2-player Pac-Man rooms",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "bash start.sh",
+    "start:once": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
