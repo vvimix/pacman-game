@@ -4,8 +4,7 @@
 - Lobby: offline, Host 2P, **Host party (2–8, coop/FFA/survive/teams)**, Join by code
 - Survive mode: 1 life each, last Pac wins; maze clear continues while 2+ remain
 - Fix: unknown mode no longer silently falls back to coop (restart server required); reclaim applies requested mode
-- Git initialized locally (`main` @ initial commit); root `.gitignore` + README
-- GitHub push blocked: no valid `gh` CLI / SSH key; keychain token returned Bad credentials
+- GitHub: https://github.com/vvimix/pacman-game (`main` pushed via HTTPS + `gh`)
 - Shared engine `engine.mjs`: P1–P8 defs, mode-aware lives/wins, snapshots
 - Server seats[] (not p1/p2); host Start; classic 2P auto-start preserved
 - OnlineGame: party scoreboard, lobby filled/max/mode, Start button
